@@ -1,0 +1,19 @@
+Three types of seats: first class, business and economy
+
+Airline Admin: Create and update each type of seat, set the total number of seats per flight
+Airline Manager: Approve new prices or updates
+
+When a customer buys a ticket, the system should be able to calculate how many seats are left. If all seats have been purchased, the application should not let customers purchase more seats.
+
+Customers should be able to select their seats by selecting the following options
+
+Departure
+destination city
+Travel date
+Number of travelers
+
+Flights are displayed to customers when they select their seats and confirm their flight itinerary booking
+
+When the customer approves the itinerary, the customer will be asked to pay and a page with the total price should be displayed. 
+When a customer presses the pay button, the transaction is considered completed and the seat is marked as sold.
+Once a seat is sold, send the customer an email with their flight itinerary.
